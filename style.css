@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: #3C5D79;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #3C5D79;
+}
+
+img {
+    margin-top: 80px;
+    margin-left: 50px;;
+    width: 70%;
+    border-radius: 45%;
+    margin-bottom: 15%;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    color: #3C5D79;
+    margin-left: 3rem;
+}
+
+.container {
+    background-color: #3C5D79;
+    width: 13rem; 
+    padding: 0.7rem;
+    margin-left: 3rem;
+}
+
+h3, .text2 {
+    color: white;
+    font-weight: 500;
+}
+
+.text2 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-directions {
+    margin-left: 10%;
+}
+
+.contact-directions p {
+    margin-bottom: 0.8rem;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 51px solid transparent;
+    border-top: 51.2px solid #3C5D79;
+    position: relative;
+    left: 29.2%;
+    bottom: 51px;
+}
+
+.container2 {
+    background-color: #3C5D79;
+    width: 13rem; 
+    padding: 0.7rem;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-right: 51px solid transparent;
+    border-top: 51.2px solid #3C5D79;
+    position: relative;
+    left: 23.7%;
+    bottom: 51.5px;
+}
+
+.container3 {
+    background-color: white;
+    width: 13rem; 
+    padding: 0.7rem;
+    margin-left: 10%;
+    margin-bottom: -10%;
+}
+
+.triangle3 {
+    width: 0;
+    height: 0;
+    border-right: 51px solid transparent;
+    border-top: 51.2px solid white;
+    position: relative;
+    left: 65.7%;
+    bottom: 14px;
+}
+
+.text {
+    color: #3C5D79;
+    font-weight: 400;
+}
+
+.github {
+    margin-bottom: 35px;
+}
+
+.fa-phone-volume, .fa-envelope, .fa-location-dot, .fa-github {
+    color: white;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.skill-name {
+    flex: 1;
+    margin-bottom: 5px;
+    color: white;
+    margin-left: 2.5rem;
+}
+.skill-progress {
+    background-color: #f0f0f0;
+    width: 60%;
+    height: 12px;
+    margin-bottom: 5px;
+}
+.progress-bar {
+    height: 100%;
+    background-color: #314B62;
+}
+
+.aboutme {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    margin-top: -35px;
+}
+
+.education {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.work {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.list {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: right;
+    padding: 0.2rem 1.5rem;
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    background-color: #3C5D79;
+    flex-basis: 30%;
+    padding: 1rem;
+ 
+}
+
+.right {
+    flex-basis: 65%;
+    padding-top: 7rem;
+}
