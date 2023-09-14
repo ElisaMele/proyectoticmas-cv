@@ -28,9 +28,9 @@ img {
 
 h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 4rem;
+    font-size: 4em;
     color: #3C5D79;
-    margin-left: 3rem;
+    margin-left: 0.75em;
 }
 
 h3,
@@ -210,5 +210,64 @@ a {
 
 .right {
     flex-basis: 65%;
-    padding-top: 7rem;
+    padding-top: 7em;
+}
+
+@media screen and (max-width: 1200px) {
+    .left {
+        flex-basis: 20%;
+        padding: 0.1em;
+    }
+
+    .right {
+        flex-basis: 68%;
+        padding-top: 5em;
+    }
+    
+    .triangle,
+    .triangle2,
+    .triangle3,
+    .fa-xl,
+    .github {
+        opacity: 0;
+    }
+    
+    .text2 {
+        margin-left: -1rem;
+    }
+    
+    .contact-directions {
+        margin-left: 7%;
+    }
+
+    .skill-name {
+        margin-bottom: 5px;
+        margin-left: 1.5rem;
+    }
+
+    .skill-progress {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .container3 {
+        width: 10rem;
+    }
+
+    .text2 {
+        margin-left: -4rem;
+    }
+
+    .skill-name {
+        margin-bottom: 5px;
+        margin-left: 1.5rem;
+    }
+
+    .skill-progress {
+        width: 45%;
+    }
+    
 }
